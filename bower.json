@@ -1,0 +1,23 @@
+{
+  "name": "angular-flickr-search",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Benj0s/angular-flickr-search",
+  "authors": [
+    "Benj0s <benpearey@hotmail.co.uk>"
+  ],
+  "license": "MIT",
+  "directory": "public/bower_components",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.8",
+    "bootstrap": "~3.3.1",
+    "angular-resource": "~1.3.8",
+    "angular-route": "~1.3.8"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="flickrSearchApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular Flickr Search</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/components/search/search.controllers.js"></script>
+        <script src="app/components/search/search.routes.js"></script>
+        <script src="app/components/search/search.services.js"></script>
+    </head>
+    <body class="text-center">
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <h1>Flickr Searchinator</h1>
+                <p>Searching photos is fun!</p>
+            </div>
+        </div>
+
+        <div ng-view></div>
+
+    </body>
+</html>
