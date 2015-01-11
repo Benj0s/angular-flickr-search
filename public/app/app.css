@@ -1,0 +1,11 @@
+.list-inline {
+    margin-top: 30px;
+}
+
+.list-inline > li {
+    padding: 0;
+}
+
+.load-more {
+    margin-bottom: 10px;
+}
